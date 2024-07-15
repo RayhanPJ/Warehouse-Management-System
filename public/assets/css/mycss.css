@@ -1,0 +1,22 @@
+.rack-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .rack-item {
+    flex: 1 0 calc(50% - 10px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .item-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    flex: 1 0 calc(25% - 10px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
