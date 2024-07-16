@@ -48,7 +48,7 @@
                                                 <?php if (!empty($v['no_rfq'] && $v['no_wo'])) : ?>
                                                     <tr class="text-center">
                                                         <td><?= $i++; ?></td>
-                                                        <td><?= $v['id']; ?></td>
+                                                        <td><?= $v['id_item']; ?></td>
                                                         <?php if ($v['name_cust'] == "") : ?>
                                                             <td>AOP Domestik</td>
                                                         <?php else : ?>
